@@ -14,7 +14,7 @@ if (!process.env.JWT_SECRET) {
   throw new Error("JWT_SECRET is missing from .env");
 }
 
-app.use(cors({ origin: /^http:\/\/localhost:\d+$/ }));
+app.use(cors());
 app.use(express.json({ limit: "1mb" }));
 
 // Create database tables
