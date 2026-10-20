@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./index.css";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://civicconnect-api-1yxt.onrender.com/api";
 
 const styles = `
 * { box-sizing: border-box; }
